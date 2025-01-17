@@ -643,9 +643,10 @@ span {
 
 
 /*=============== CARD ===============*/
-.about-me-section{
+.about-me-section {
   display: flex;
 }
+
 .about-me {
   font-family: var(--body-font);
   width: 60%;
@@ -658,8 +659,8 @@ span {
   padding-block: 5rem;
   align-content: center;
   justify-content: start;
-  margin-left: 70px;  
- 
+  margin-left: 70px;
+
 }
 
 .card__container {
@@ -673,15 +674,15 @@ span {
 }
 
 .card__img {
-  width: 328px;
+
   border-radius: 1.5rem;
-  height: 600px;
+  height: 500px;
   width: 500px;
 }
 
 .card__data {
   width: 480px;
-  background-color: var(--container-color);
+  background-color: rgb(224, 239, 245);
   padding: 1.5rem 2rem;
   box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
   border-radius: 1rem;
@@ -692,17 +693,14 @@ span {
   margin-inline: auto;
   opacity: 0;
   transition: opacity 1s 1s;
-  height: 200px;
+  height: 150px;
 }
 
 .card__description {
   display: flex;
   font-size: 40px;
   margin-bottom: .25rem;
-justify-content: center;
-
-
-
+  justify-content: center;
 }
 
 .card__title {
@@ -710,6 +708,8 @@ justify-content: center;
   font-weight: 500;
   color: var(--title-color);
   margin-bottom: .75rem;
+  justify-content: center;
+  display: flex;
 }
 
 .card__button {
@@ -717,6 +717,8 @@ justify-content: center;
   font-size: var(--small-font-size);
   font-weight: 500;
   color: var(--first-color);
+  display: flex;
+  justify-content: center;
 }
 
 .card__button:hover {
@@ -784,14 +786,16 @@ justify-content: center;
   }
 }
 
-.about-me-text{
+.about-me-text {
   padding-block: 5rem;
   width: 70%;
 }
-.about-me-head2{
+
+.about-me-head2 {
   font-size: 5rem;
 }
-.about-me-para{
+
+.about-me-para {
   font-size: 20px;
   margin-top: 5px;
 }
