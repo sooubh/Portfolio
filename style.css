@@ -43,6 +43,7 @@ body {
   width: 150px;
   margin-top: 8px;
   margin-left: 3px;
+
 }
 
 .logo {
@@ -52,12 +53,14 @@ body {
   width: 170px;
   justify-content: center;
   align-items: center;
+
 }
 
 .nav-list {
   width: 500px;
   margin-left: 200px;
   display: flex;
+
 }
 
 .nav-list a {
@@ -198,6 +201,7 @@ body {
   filter: drop-shadow(0 0 5rem rgb(10, 124, 158));
   transition: transform 0.3s ease, z-index 0.3s ease;
   z-index: 1;
+  animation: slideLeft 2s ease forwards
 }
 
 .hero-text-first-line {
@@ -789,7 +793,22 @@ span {
 .about-me-text {
   padding-block: 5rem;
   width: 70%;
+  animation: slideLeft 2s ease forwards;
 }
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+}
+
 
 .about-me-head2 {
   font-size: 5rem;
@@ -798,4 +817,60 @@ span {
 .about-me-para {
   font-size: 20px;
   margin-top: 5px;
+}
+
+hr {
+  margin-top: 1rem;
+}
+
+.about-me-list {
+  width: 70%;
+  align-items: center;
+  display: flex;
+
+}
+
+.about-me-list li {
+  margin-top: 1.9rem;
+  list-style-type: none;
+  width: 120px;
+
+
+}
+
+.about-me-list-col1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about-me-list-col2 {
+  margin-left: 3rem;
+  font-size: 16px;
+  color: #4D4D5C;
+
+}
+
+.about-me-list-col3 {
+  margin-left: 5rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about-me-list-col4 {
+  margin-left: 3.5rem;
+  font-size: 17px;
+  color: #4D4D5C;
+
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
