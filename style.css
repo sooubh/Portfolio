@@ -204,6 +204,20 @@ body {
   animation: slideLeft 2s ease forwards
 }
 
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+}
+
+
 .hero-text-first-line {
   color: #ffffff;
   font-size: 20px;
@@ -501,14 +515,24 @@ span {
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
+  background-color: rgba(226, 236, 246, 255);
+}
+
+.about-head-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
+
 }
 
 .about-list {
-  background-color: rgba(226, 236, 246, 255);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 720px;
+  height: 600px;
 
 }
 
@@ -517,6 +541,12 @@ span {
   height: 400px;
   width: 300px;
   border-radius: 5%;
+  transition: 0.3s
+}
+
+.about-list1:hover {
+  box-shadow: 0 0 11px rgba(8, 53, 201, 0.5);
+  margin-top: -120px;
 }
 
 .about-list1-img {
@@ -546,6 +576,12 @@ span {
   width: 300px;
   border-radius: 5%;
   margin-top: 120px;
+  transition: 0.3s;
+}
+
+.about-list2:hover {
+  box-shadow: 0 0 11px rgba(8, 53, 201, 0.5);
+  margin-top: -120px;
 }
 
 .about-list2-img {
@@ -575,7 +611,13 @@ span {
   height: 400px;
   width: 300px;
   border-radius: 5%;
+  transition: 0.3s;
 
+}
+
+.about-list3:hover {
+  box-shadow: 0 0 11px rgba(8, 53, 201, 0.5);
+  margin-top: -120px;
 }
 
 .about-list3-img {
@@ -605,7 +647,13 @@ span {
   width: 300px;
   border-radius: 5%;
   margin-top: 120px;
+  transition: 0.3s;
 
+}
+
+.about-list4:hover {
+  box-shadow: 0 0 11px rgba(8, 53, 201, 0.5);
+  margin-top: -120px;
 }
 
 .about-list4-img {
@@ -793,21 +841,8 @@ span {
 .about-me-text {
   padding-block: 5rem;
   width: 70%;
-  animation: slideLeft 2s ease forwards;
 }
 
-@keyframes slideLeft {
-  0% {
-    transform: translateX(100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-
-}
 
 
 .about-me-head2 {
@@ -863,14 +898,240 @@ hr {
 
 }
 
-@keyframes slideRight {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
+/* MARQUEEE */
+.text-marquee {
+  font-family: "Lato", sans-serif;
+  font-size: 94px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
+.marquee {
+  width: 100%;
+  /* padding: 90px 20px; */
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+  overflow: hidden;
+}
+
+.marquee .marquee-wrapper {
+  display: flex;
+  animation: marqueeAnimation 15s linear infinite;
+}
+
+.marquee h3 .marquee-title {
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.text-stroke-black {
+  color: transparent;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #000000;
+  font-size: 110px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@keyframes marqueeAnimation {
+  0% {
+    transform: translateX(0);
+  }
   100% {
-    transform: translateX(0px);
-    opacity: 1;
+    transform: translateX(-100%);
   }
 }
+
+/* marquee2 */
+
+.marquee1 {
+  width: 100%;
+  /* padding: 90px 20px; */
+
+  border-bottom: 1px solid #000000;
+  text-align: center;
+  overflow: hidden;
+}
+.marquee1 .marquee-wrapper1 {
+  display: flex;
+  animation: marqueeAnimation1 15s linear infinite;
+}
+
+.marquee1 h3 .marquee-title1 {
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.text-stroke-black1 {
+  color: transparent;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #000000;
+  font-size: 110px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+@keyframes marqueeAnimation1 {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* team */
+.team-text{
+  height: 150px;
+  width: 100%;
+}
+.team-para{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.team-head{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+.my-team{
+  height: 700px;
+  display: flex;
+ justify-content: center;
+align-items: center;
+  width: 100%;
+}
+/* Hide radio input elements */
+input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Positioning and style for paragraph */
+
+
+/* Wrapper for circle elements */
+.circle-wrapper {
+  border: 1px solid #0f3e5d;
+  position: relative;
+  border-radius: 9999px; /* Fully rounded */
+  display: grid;
+  width: 450px;
+  height: 450px;
+  grid-template-areas: "stack";
+  place-content: center;
+}
+
+/* Label styles inside the circle wrapper */
+label {
+  grid-area: stack;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 9999px; /* Fully rounded */
+  border: 1px solid #738088;
+  display: grid;
+  place-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: relative;
+  color: #87ceeb;
+  font-size: 1.25rem;
+  transition-property: all;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2); /* White with 20% opacity */
+}
+
+/* Image styles */
+.team-image{
+  border-radius: 9999px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+}
+
+/* SVG styles */
+svg {
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  inset: 0 0 0 -25%;
+  margin: auto;
+  width: 125px;
+  opacity: 0;
+  z-index: -10;
+}
+
+/* Centered element styles */
+.center-element-team {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 8rem;
+  height: 8rem;
+  background-color: #1b2c36;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%; /* Circle */
+  display: grid;
+  place-content: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  color: #cbd5e0;
+  font-size: 1.125rem;
+}
+
+/* Before pseudo-element for center-element */
+.center-element-team::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  background-color: #0a4368;
+  border-radius: 50%;
+  z-index: -10;
+  transition: all 1s;
+}
+
+/* Checked radio input styles */
+input:checked + label {
+  transform: none !important;
+  transition-duration: 1s;
+}
+
+/* Image transform on checked */
+input:checked + label > img {
+  transform: scale(2);
+}
+
+/* SVG transform on checked */
+input:checked + label > svg {
+  opacity: 1;
+  transform: scale(2.25) rotate(45deg);
+  transition-delay: 700ms, 500ms, 2000ms;
+}
+
+/* Avatar transform styles */
+.avatar {
+  --radius: 14rem;
+  --d: calc(var(--i) / var(--total));
+  --r-offset: -0.15turn;
+  --r-amount: 1turn;
+  --r: calc((var(--r-amount) * var(--d)) + var(--r-offset));
+  transform: rotate(var(--r)) translate(var(--radius)) rotate(calc(-1 * var(--r)));
+} 
+
