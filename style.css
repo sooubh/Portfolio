@@ -47,7 +47,7 @@ body {
 }
 
 .logo {
-  background-image: url("img/logo.png");
+  background-image: url("img/navbar-img/logo.png");
   background-size: cover;
   height: 40px;
   width: 170px;
@@ -181,7 +181,7 @@ body {
 }
 
 .hero-background {
-  background-image: url("img/slider-bg.jpg");
+  background-image: url("img/hero-section/slider-bg.jpg");
   align-items: center;
   justify-content: space-evenly;
   background-size: cover;
@@ -191,7 +191,7 @@ body {
 }
 
 .hero-img {
-  background-image: url("img/hero.png");
+  background-image: url("img/hero-section/hero.png");
   height: 630px;
   width: 500px;
   background-size: cover;
