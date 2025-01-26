@@ -24,22 +24,22 @@ body {
   }
 }
 
-.navbar {
-  background-color: #282f36;
+nav {
+  /* background-color: #282f36; */
+  background-image: url('img/hero-section/slider-bg.jpg');
   height: 60px;
-  overflow: hidden;
   top: 0;
-  left: 0;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   display: flex;
   align-items: center;
   z-index: 1000;
+  justify-content: space-between;
 }
 
 .nav-logo {
   height: 50px;
-  padding: 0 100px;
+
 }
 
 .logo {
@@ -49,10 +49,32 @@ body {
   width: 170px;
 }
 
-.nav-list {
-  width: 70vw;
-  display: flex;
-  justify-content: flex-end;
+.nav-list{
+display: flex;
+  }
+  .nav-list ul{
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-list-mobile{
+    display: none;
+    position: fixed; 
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.692);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    line-height: 50px;
+  }
+  .nav-list-mobile li{
+    list-style: none;
+    font-size: 20px;
+    width: 100%;
   }
 .nav-list a {
   color: #ffffff;
@@ -62,31 +84,34 @@ body {
   margin: 9px 5px;
   position: relative;
   transition: all 0.5s ease;
-
-}
-
-.nav-list a::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: #0096c7;
-  visibility: hidden;
-  clip: rect(0, 0, 0, 0);
-  transition: all 0.5s ease;
 }
 
 .nav-list a:hover {
   color: #0096c7;
   animation: neonFlicker 1.5s infinite alternate;
 }
+.nav-list-mobile ul{
+  line-height: 50px;
+  margin-top: 250px;
+}
+.nav-list-mobile a {
+  color: #3f3a3b;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 9px 5px;
+  position: relative;
+  transition: all 0.5s ease;
+  width: 100%;
+}
 
-.nav-list a:hover::before {
-  visibility: visible;
-  clip: rect(0, 900px, 0, 0);
+.nav-list-mobile a:hover {
+  color: #0096c7;
   animation: neonFlicker 1.5s infinite alternate;
+}
+
+.close-menu{
+  padding: 10px 0 0 10px;
 }
 
 @keyframes neonFlicker {
@@ -106,6 +131,7 @@ body {
   cursor: pointer;
   display: none;
   float: right;
+  padding-right: 30px;
 }
 #check{
   display: none;
@@ -116,7 +142,7 @@ body {
 @media (max-width:952px) {
  
   .nav-logo{
-    padding:0 60px;
+    padding:0 30px;
   }
   .nav-list a{
     font-size: 15px;
@@ -130,7 +156,14 @@ body {
     display: block;
   }
 }
- 
+@media (max-width: 600px) {
+  .nav-list {
+    display: none;
+  }
+  .checkbtn{
+    display: block;
+  }
+}
 /* hero section */
 
 .hero {
@@ -146,7 +179,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   background-size: cover;
-  width: 100%;
+  width: 100vw;
   height: 630px;
   display: flex;
 }
@@ -1005,7 +1038,7 @@ input[type="radio"] {
 }
 
 /* Label styles inside the circle wrapper */
-label {
+.team-lable {
   grid-area: stack;
   width: 5rem;
   height: 5rem;

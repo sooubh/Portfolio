@@ -24,4 +24,11 @@ for (var i = 0;  i < all.length; ++i) {
 }
 
 
-
+function showSidebar(){
+  const sidebar = document.querySelector('.nav-list-mobile')
+  sidebar.style.display = 'flex'
+}
+function hideSidebar(){
+   const sidebar = document.querySelector('.nav-list-mobile')
+  sidebar.style.display = 'none'
+}
