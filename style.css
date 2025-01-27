@@ -1064,6 +1064,11 @@ display: flex;
   padding: 0.1rem 0.6rem;
 }
 }
+
+
+
+
+
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
@@ -1224,6 +1229,37 @@ display: flex;
   }
 }
 
+@media (max-width:768px) {
+  .about-me-section {
+    flex-direction: column;
+  }
+  .about-me {
+    font-family: var(--body-font);
+    width: 100%;
+  }
+  
+  .about-me-container {
+    display: grid;
+    place-items: center;
+    margin-inline: 1.5rem;
+    padding-block: 5rem;
+    align-content: center;
+    justify-content: center;
+  }
+  .card__img {
+    height: 350px;
+    width: 350px;
+  }
+  .card__data {
+    width: 300px;
+    height: 100px;
+  }
+  
+  .card__description {
+    font-size: 20px;
+  }
+}
+
 .about-me-text {
   padding-block: 5rem;
   width: 70%;
@@ -1284,6 +1320,57 @@ hr {
 
 }
 
+@media (max-width:768px) {
+  .about-me-text {
+    padding-block: 1rem;
+    width: 100%;
+    padding-left: 1.3rem;
+  }
+  .about-me-head2 {
+    font-size: 3rem;
+  }
+  .about-me-para {
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+  
+  hr {
+    margin-left: -1.3rem;
+  }
+  
+  .about-me-list {
+    width: 100%;
+    align-items: center;
+    display: flex;  
+  }
+  
+  .about-me-list li {
+    margin-top: 1.9rem;
+    width: 100%;
+  }
+  
+  .about-me-list-col1 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .about-me-list-col2 {
+    margin-left: 3rem;
+    font-size: 0.8rem;  
+  }
+  
+  .about-me-list-col3 {
+    margin-left: 3rem;
+    font-size: 1rem;
+  }
+  
+  .about-me-list-col4 {
+    margin-left: 3rem;
+    font-size: 0.8rem;  
+  }
+}
+
+
 /* MARQUEEE */
 .text-marquee {
   font-family: "Lato", sans-serif;
@@ -1329,7 +1416,20 @@ hr {
     transform: translateX(-100%);
   }
 }
-
+@media (max-width:768px) {
+  .text-marquee {
+    font-size: 50px;
+    }
+    .text-stroke-black {
+      color: transparent;
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000000;
+      font-size: 3.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  
+}
 /* marquee2 */
 
 .marquee1 {
@@ -1369,6 +1469,27 @@ hr {
   100% {
     transform: translateX(0);
   }
+}
+@media (max-width:768px) {
+  .text-marquee {
+    font-size: 50px;
+    }
+    .text-stroke-black {
+      color: transparent;
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000000;
+      font-size: 3.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .text-stroke-black1 {
+      color: transparent;
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: #000000;
+      font-size: 3.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
 }
 
 /* team */
