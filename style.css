@@ -143,7 +143,7 @@ display: flex;
 @media (max-width:952px) {
  
   .nav-logo{
-    padding:0 30px;
+    margin:0 30px;
   }
   .nav-list a{
     font-size: 15px;
@@ -184,22 +184,10 @@ display: flex;
   height: 630px;
   display: flex;
 }
-
-.hero-img {
-  background-image: url("img/hero-section/hero.png");
-  height: 630px;
-  width: 500px;
-  background-size: cover;
-  float: right;
-  margin-right: 40px;
-  margin-left: 200px;
-  filter: drop-shadow(0 0 5rem rgb(10, 124, 158));
-  transition: transform 0.3s ease, z-index 0.3s ease;
-  z-index: 1;
-
+.hero-text{
+  width: 50%;
+  height: 100%;
 }
-
-
 .hero-text-first-line {
   color: #ffffff;
   text-decoration: none;
@@ -209,7 +197,6 @@ display: flex;
   display: inline-block;
   font-size: 30px;
 }
-
 .hero-text-first-line::before {
   content: '';
   position: absolute;
@@ -227,9 +214,6 @@ display: flex;
   width: 100%;
   border-radius: 50%;
 }
-
-
-
 .hero-text-name-line::before {
   content: '';
   position: absolute;
@@ -375,16 +359,34 @@ display: flex;
 .button-text a:hover:after {
   opacity: 1;
 }
+
+.hero-img {
+  height: 630px;
+  width: 500px;
+  margin-right: 40px;
+  margin-left: 200px;
+}
+.hero-img-container{
+  background-image: url("img/hero-section/hero.png");
+  height: 100%;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  background-size: cover;
+  filter: drop-shadow(0 0 5rem rgb(10, 124, 158));
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  z-index: 1;
+}
 @media (max-width:768px)
 {
-  .hero {
+.hero {
   height: 700px;
   width: 100%;
   margin-top: 60px;
   position: relative;
   z-index: 1;
 }
-
 .hero-background {
   background-image: url("img/hero-section/slider-bg.jpg");
   justify-content: center;
@@ -394,7 +396,6 @@ display: flex;
   display: flex;
   flex-direction: column;
 }
-
 .hero-text-first-line {
   color: #ffffff;
   text-decoration: none;
@@ -403,9 +404,7 @@ display: flex;
   display: flex;
   justify-content: center;
   margin-top: 25px;
-
 }
-
 .hero-text-first-line::before {
   content: '';
   position: absolute;
@@ -417,14 +416,11 @@ display: flex;
   border-radius: 0;
   transition: all 0.5s ease-in-out;
 }
-
 .hero-text-first-line:hover::before {
   width: 100%;
   border-radius: 50%;
 }
-
 .hero-text-name-line {
-
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 900;
@@ -447,13 +443,10 @@ display: flex;
   border-radius: 0;
   transition: all 0.5s ease-in-out;
 }
-
 .hero-text-name-line:hover::before {
   width: 100%;
   border-radius: 50%;
 }
-
-
 .hero-text-name1-line {
 
   font-family: "Playfair Display", serif;
@@ -478,35 +471,25 @@ display: flex;
   border-radius: 0;
   transition: all 0.5s ease-in-out;
 }
-
 .hero-text-name1-line:hover::before {
   width: 100%;
   border-radius: 50%;
 }
-
-
-
-
 .auto-type-container {
   display: flex;
   margin-top: 15px;
   text-decoration: none;
   position: relative;
   justify-content: center;
-
 }
-
 .auto-type-h1 {
   color: #fff;
   font-size: 20px;
 }
-
 .auto-type {
   color: #2b5abe;
   font-size: 20px;
 }
-
-
 .auto-type-container::before {
   content: '';
   position: absolute;
@@ -519,34 +502,27 @@ display: flex;
   border-radius: 0;
   transition: all 0.5s ease-in-out;
 }
-
 .auto-type-container:hover::before {
   width: 100%;
   border-radius: 50%;
 }
-
 .hero-img {
   background-image: url("img/hero-section/hero.png");
-  height: 400px;
-  width: 300px;
+  height: 500px;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-size: contain;
   background-repeat: no-repeat;
   filter: drop-shadow(0 0 5rem rgb(10, 124, 158));
   transition: transform 0.3s ease, z-index 0.3s ease;
-  z-index: 1;
-  bottom: 0;
   margin-left: 150px;
 }
-
-
 .button-text {
   display: flex;
   justify-content: center;
   margin-top: 20px
 }
-
 .button-text a {
   position: relative;
   text-decoration: none;
@@ -556,12 +532,10 @@ display: flex;
   border-radius: 10px;
   font-size: 1.25em;
 }
-
 .button-text a .auto-type-span {
   position: relative;
   z-index: 1;
 }
-
 .button-text a::before {
   content: "";
   position: absolute;
@@ -570,11 +544,9 @@ display: flex;
   border-radius: 9px;
   transition: 0.5s;
 }
-
 .button-text a:hover::before {
   opacity: 0.7;
 }
-
 /* add some glow effect */
 .button-text a::after {
   content: "";
@@ -586,12 +558,9 @@ display: flex;
   opacity: 0;
   filter: blur(20px);
 }
-
 .button-text a:hover:after {
   opacity: 1;
 }
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .social-menu {
@@ -619,8 +588,6 @@ display: flex;
 }
 
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .social-menu {
   margin-top: -70px;
@@ -733,7 +700,6 @@ display: flex;
   background: #cd201f;
   color: #ffffff;
 }
-
 .about {
   height: 720px;
   width: 100%;
