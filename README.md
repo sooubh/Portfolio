@@ -1,12 +1,13 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=30&pause=1000&color=38B2AC&center=true&vCenter=true&width=600&lines=Hi+👋,+I'm+Sourabh;B.Tech+Computer+Engineering+Student;Flutter+%7C+Firebase+Developer;Building+Lovyn+Dating+App;Always+Learning+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&pause=1000&color=38B2AC&center=true&vCenter=true&width=900&lines=Hey+%F0%9F%91%8B,+I%E2%80%99m+Sourabh;B.Tech+Computer+Engineering+Student+%F0%9F%A7%91%E2%80%89%E2%9A%92;Flutter+%26+Firebase+Explorer;Crafting+Scalable+%26+Impactful+Apps;Building+Future%2C+One+Code+at+a+Time" />
 </h1>
 
+<h3 align="center"> 🚀 On a mission to simplify lives with technology 🌟 </h3>
+
 <p align="center">
-  💻 Computer Engineering Student <br/>
-  🚀 Flutter & Firebase Developer <br/>
-  ❤️ Building real-world scalable apps <br/>
-  🔥 Clean Architecture • Performance • Security
+  📱 Creator of <strong>Lovyn</strong>, the modern dating app<br/>
+  ❤️ Powered by Flutter, Firebase & Clean Code Principles<br/>
+  🔥 Passionate about performance, scalability, and clean architecture<br/>
 </p>
 
 <p align="center">
@@ -15,74 +16,75 @@
 
 ---
 
-<h2 align="center">🏆 GitHub Trophies</h2>
+<h2 align="center">🏆 GitHub Trophies 🏆</h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical&no-frame=true&row=1&column=6"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=sooubh&theme=tokyonight&no-frame=true&margin-w=5&row=1&column=6" alt="GitHub Trophies"/>
 </p>
 
 ---
 
-<h2 align="center">📊 GitHub Stats</h2>
+<h2 align="center">📊 My Developer Stats</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=sooubh&show_icons=true&theme=onedark&hide_border=true" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sooubh&theme=onedark&hide_border=true" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-<h2 align="center">⚙️ Tech Stack</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,androidstudio,git,github,html,css,js,java,mysql,vscode&theme=dark"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sooubh&layout=compact&theme=onedark&hide_border=true"/>
 </p>
 
 ---
 
-<h2 align="center">🚀 Current Project</h2>
+<h2 align="center">💻 Tech Arsenal ⚙️</h2>
 
 <p align="center">
-  ❤️ <b>Lovyn</b> – A modern dating app <br/>
-  📱 Built using Flutter & Firebase <br/>
-  🔒 Firebase Auth • 🔥 Firestore • ⚡ Cloud Functions <br/>
-  🧱 Clean Architecture • Scalable Backend
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,fedora,androidstudio,git,github,html,css,js,ts,java,mysql,vscode,figma&theme=dark" alt="Tech Skills" />
 </p>
 
 ---
 
-<h2 align="center">🌐 Connect With Me</h2>
+<h2 align="center">🚀 Building Something Incredible...</h2>
 
 <p align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
-    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/>
+  ❤️ <strong>Lovyn</strong>: The Dating App Revolutionized<br/>
+  ⚙️ Built with <code>Flutter</code> 🔵 and <code>Firebase</code> 🔥<br/>
+  💪 Scalable Backend, Secure Architecture, Real-time Firestore<br/>
+  🧩 Focused on Clean Architecture and Seamless User Experience<br/>
+  🌍 Bringing People Closer, One Swipe at a Time!
+</p>
+
+---
+
+<h2 align="center">🌐 Get in Touch</h2>
+
+<p align="center">
+  <a href="https://github.com/sooubh">
+    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:YOUR_EMAIL@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
 </p>
 
 ---
 
-<h2 align="center">🐍 Contribution Snake</h2>
+<h2 align="center">🐍 Watch My Contribution Snake Slither!</h2>
 
-![snake gif](https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/blob/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <img src="https://github.com/sooubh/sooubh/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+</p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile+Views&color=0e75b6&style=flat"/>
+  <img src="https://komarev.com/ghpvc/?username=sooubh&label=Profile+Views&color=brightgreen&style=for-the-badge" alt="Profile views counter"/>
 </p>
 
 ---
 
-<h3 align="center">
-  ⚡ “Code. Learn. Build. Repeat.” ⚡
-</h3>
+<h3 align="center">✨ “Innovate, Code, Inspire, Repeat.” ✨</h3>
